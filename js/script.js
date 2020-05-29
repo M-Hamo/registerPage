@@ -1,6 +1,7 @@
+//getting id for login form
 var login_form = document.getElementById('login-form');
 var login_form_btn = document.getElementById('login-form-btn');
-
+//getting id for register form
 var register_form = document.getElementById('register-form');
 var register_form_btn = document.getElementById('register-form-btn');
 
@@ -18,3 +19,4 @@ login_form_btn.onclick = () => {
     register_form.style.left = "430px";
     moved_div.style.left = "0";
 }
+

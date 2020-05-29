@@ -38,14 +38,19 @@
     color: whitesmoke;
 }
 #btn{
+    position: absolute;
     top: 0;
     left:0;
-    position: absolute;
+    display: block;
     width: 110px;
-    height: 100%;
-    background: linear-gradient(45deg,#f72323,#f04c1a,#c1e00f);
+    height: 110%;
+    background: linear-gradient(45deg,#f72323,#57f01a,#0f35e0);
+    background-size: 250%;
     border-radius: 30px;
     transition: .5s;
+}
+#btn:hover{
+    background-position:100% 0;
 }
 .social{
     margin: 30px auto;
@@ -81,13 +86,25 @@
 }
 .submit-btn{
     width: 85%;
+    height: 50px;
     padding: 10px 30px;
     margin:10px auto;
     cursor: pointer;
     display: block;
     border: none;
+    outline:none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'Poppins',sans-serif;
     border-radius: 30px;
-    background: linear-gradient(45deg,#f72323,#f04c1a,#c1e00f);
+    background-image: linear-gradient(45deg, #eb6b30, #ff0000, #e85a19);
+    background-size: 250%;
+    transition: .5s;
+}
+.submit-btn:hover 
+{
+    background-position: 100% 0;
 }
 .check-box{
     margin:30px 10px 30px 5px ;
